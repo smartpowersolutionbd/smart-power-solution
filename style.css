@@ -84,3 +84,18 @@ footer{
     box-shadow:0 5px 15px rgba(0,0,0,.3);
     z-index:999;
 }
+.owner .btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#003366;
+    color:#fff;
+    padding:12px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.owner .btn:hover{
+    background:#005bbb;
+}
