@@ -47,3 +47,40 @@ footer{
     text-align:center;
     padding:20px;
 }
+.banner{
+    width:100%;
+    overflow:hidden;
+}
+
+.banner img{
+    width:100%;
+    display:block;
+}
+
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#25D366;
+    color:#fff;
+    padding:14px 18px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    z-index:999;
+}
+
+.call{
+    position:fixed;
+    left:20px;
+    bottom:20px;
+    background:#003366;
+    color:#fff;
+    padding:14px 18px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    z-index:999;
+}
