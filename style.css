@@ -99,34 +99,60 @@ footer{
 .owner .btn:hover{
     background:#005bbb;
 }
-.social-links{
-    margin-top:20px;
+/* Social Buttons */
+.social-buttons{
+    margin-top:25px;
     display:flex;
     justify-content:center;
     gap:15px;
     flex-wrap:wrap;
 }
 
-.social-links a{
-    background:#003366;
-    color:#fff;
+.social-buttons a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    width:220px;
+    padding:14px 20px;
+    border-radius:10px;
     text-decoration:none;
-    padding:12px 20px;
-    border-radius:8px;
+    font-size:17px;
     font-weight:bold;
+    color:#fff;
     transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
 
-.social-links a:hover{
-    background:#005bbb;
+.whatsapp-btn{
+    background:#25D366;
 }
 
-.social-links .fa-facebook{
-    color:#1877F2;
-    margin-right:8px;
+.whatsapp-btn:hover{
+    background:#1da851;
 }
 
-.social-links .fa-whatsapp{
-    color:#25D366;
-    margin-right:8px;
+.facebook-btn{
+    background:#1877F2;
 }
+
+.facebook-btn:hover{
+    background:#145dbf;
+}
+
+.social-buttons i{
+    font-size:24px;
+}
+
+@media (max-width:600px){
+    .social-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .social-buttons a{
+        width:90%;
+        max-width:320px;
+    }
+
+
