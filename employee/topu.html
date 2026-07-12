@@ -15,37 +15,43 @@ background:#f4f7fb;
 }
 
 .card{
-
-max-width:650px;
-margin:40px auto;
+max-width:700px;
+margin:30px auto;
 background:#fff;
 padding:30px;
-border-radius:12px;
+border-radius:15px;
 box-shadow:0 5px 20px rgba(0,0,0,.15);
-
 }
 
 .logo{
 text-align:center;
 }
 
+.logo img{
+width:90px;
+margin-bottom:10px;
+}
+
 .logo h1{
 color:#003366;
-margin-bottom:5px;
+margin:5px 0;
 }
 
 .logo p{
-color:#777;
+color:#666;
 }
 
 .photo{
 text-align:center;
-margin:20px;
+margin:20px 0;
 }
 
 .photo img{
 width:180px;
-border-radius:10px;
+height:180px;
+object-fit:cover;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
 
 table{
@@ -61,17 +67,34 @@ border-bottom:1px solid #ddd;
 
 .verify{
 margin-top:25px;
-padding:15px;
 background:#d4edda;
 color:#155724;
+padding:15px;
+border-radius:8px;
 text-align:center;
+font-weight:bold;
+}
+
+.home{
+display:block;
+width:220px;
+margin:25px auto;
+padding:12px;
+background:#003366;
+color:#fff;
+text-align:center;
+text-decoration:none;
 border-radius:8px;
 font-weight:bold;
 }
 
+.home:hover{
+background:#005bbb;
+}
+
 footer{
-margin-top:30px;
 text-align:center;
+margin-top:20px;
 color:#555;
 }
 
@@ -85,6 +108,8 @@ color:#555;
 
 <div class="logo">
 
+<img src="../IMG_1128.png" alt="Company Logo">
+
 <h1>SMART POWER SOLUTION</h1>
 
 <p>Verified Employee</p>
@@ -93,7 +118,7 @@ color:#555;
 
 <div class="photo">
 
-<img src="../IMG_1129.jpeg">
+<img src="../IMG_1129.jpeg" alt="MD. TOPU HOWLADER">
 
 </div>
 
@@ -131,7 +156,12 @@ color:#555;
 
 <tr>
 <td><b>Qualification</b></td>
-<td>B.Sc. in EEE</td>
+<td>B.Sc. in Electrical & Electronic Engineering</td>
+</tr>
+
+<tr>
+<td><b>Education Period</b></td>
+<td>2019 - 2023</td>
 </tr>
 
 <tr>
@@ -140,8 +170,13 @@ color:#555;
 </tr>
 
 <tr>
+<td><b>Profession</b></td>
+<td>Electrical & Electronic Engineer</td>
+</tr>
+
+<tr>
 <td><b>License</b></td>
-<td>ABC Supervisor License & Licensed Electrician</td>
+<td>ABC Supervisor License & ABC Licensed Electrician Holder</td>
 </tr>
 
 <tr>
@@ -157,7 +192,11 @@ color:#555;
 
 </div>
 
+<a href="../index.html" class="home">🏠 Back to Home</a>
+
 <footer>
+
+<b>SMART POWER SOLUTION</b><br>
 
 Safe Power, Smart Future
 
